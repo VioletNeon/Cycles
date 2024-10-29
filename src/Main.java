@@ -48,7 +48,7 @@ public class Main {
         amountOfSavings = 0;
 
         for (byte i = 1; i <= 12; i++) {
-            amountOfSavings = amountOfSavings + amountOfSavings/100;
+            amountOfSavings = amountOfSavings + amountOfSavings / 100;
             amountOfSavings = amountOfSavings + monthlySavings;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + amountOfSavings + " рублей");
         }
