@@ -34,5 +34,14 @@ public class Main {
         for (short i = 1; i <= 512; i = (short) (i * 2)) {
             System.out.println(i);
         }
+
+        System.out.println("\n" + "Задание_8");
+        int amountOfSavings = 0;
+        int monthlySavings = 29_000;
+
+        for (byte i = 1; i <= 12; i++) {
+            amountOfSavings = amountOfSavings + monthlySavings;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + amountOfSavings + " рублей");
+        }
     }
 }
