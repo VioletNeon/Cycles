@@ -29,5 +29,10 @@ public class Main {
         for (byte i = 7; i <= 98; i = (byte) (i + 7)) {
             System.out.println(i);
         }
+
+        System.out.println("\n" + "Задание_7");
+        for (short i = 1; i <= 512; i = (short) (i * 2)) {
+            System.out.println(i);
+        }
     }
 }
