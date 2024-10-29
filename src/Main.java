@@ -9,5 +9,10 @@ public class Main {
         for (byte i = 10; i > 0; i--) {
             System.out.println(i);
         }
+
+        System.out.println("\n" + "Задание_3");
+        for (byte i = 0; i <= 17; i = (byte) (i + 2)) {
+            System.out.println(i);
+        }
     }
 }
