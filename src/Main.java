@@ -52,5 +52,12 @@ public class Main {
             amountOfSavings = amountOfSavings + monthlySavings;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + amountOfSavings + " рублей");
         }
+
+        System.out.println("\n" + "Задание_10");
+        for (short i = 1; i <= 10; i++) {
+            byte resultOfMultiplicationByTwo = (byte) (i * 2);
+
+            System.out.println("2" + "*" + i + "=" + resultOfMultiplicationByTwo);
+        }
     }
 }
