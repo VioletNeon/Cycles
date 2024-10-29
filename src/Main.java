@@ -24,5 +24,10 @@ public class Main {
         for (short i = 1904; i <= 2096; i = (short) (i + 4)) {
             System.out.println(i + " год является високосным");
         }
+
+        System.out.println("\n" + "Задание_6");
+        for (byte i = 7; i <= 98; i = (byte) (i + 7)) {
+            System.out.println(i);
+        }
     }
 }
